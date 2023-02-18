@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="679.0" style="-fx-background-color: #FFEBCD;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.LoginController">
+   <children>
+      <Pane prefHeight="462.0" prefWidth="296.0" style="-fx-background-color: #FFDAB9;">
+         <children>
+            <Pane layoutX="-1.0" layoutY="-5.0" prefHeight="489.0" prefWidth="182.0">
+               <children>
+                  <JFXTextField fx:id="txtUser" focusColor="#ad1610" labelFloat="true" layoutX="33.0" layoutY="128.0" prefHeight="36.0" prefWidth="235.0" promptText="User Name" text="trang">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <Label layoutX="41.0" layoutY="331.0" text="User Type" />
+                  <JFXComboBox fx:id="cbUserType" focusColor="#ad1610" layoutX="119.0" layoutY="321.0" prefHeight="36.0" prefWidth="146.0" />
+                  <FontAwesomeIconView fill="#00000066" glyphName="USER" layoutX="242.0" layoutY="153.0" size="25" text="" />
+                  <FontAwesomeIconView fill="#00000066" glyphName="KEY" layoutX="239.0" layoutY="250.0" size="25" />
+                  <JFXPasswordField fx:id="txtPass" focusColor="#ad1610" labelFloat="true" layoutX="36.0" layoutY="227.0" prefHeight="25.0" prefWidth="234.0" promptText="Password" text="trantrang.">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXPasswordField>
+                  <Label fx:id="ErrUser" layoutX="34.0" layoutY="172.0" prefHeight="17.0" prefWidth="239.0" textFill="#eb0707" />
+                  <JFXButton fx:id="btnLogin11" layoutX="77.0" layoutY="401.0" onAction="#clickLogin" prefHeight="44.0" prefWidth="133.0" style="-fx-background-color: #FA8072; -fx-background-radius: 40;" text="Login" textFill="#170404">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <Label fx:id="ErrUserType" layoutX="41.0" layoutY="363.0" prefHeight="21.0" prefWidth="256.0" textFill="#bf1a1a" />
+                  <Label fx:id="ErrPass" alignment="CENTER_RIGHT" layoutX="12.0" layoutY="274.0" prefHeight="21.0" prefWidth="314.0" textFill="WHITE" />
+                  <Label layoutX="91.0" layoutY="30.0" text="Login Form ">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children></Pane>
+      <Pane layoutX="330.0" layoutY="14.0" prefHeight="455.0" prefWidth="335.0">
+         <children>
+            <ImageView fitHeight="252.0" fitWidth="378.0" layoutX="-29.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Teriyaki%20Chicken.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="65.0" layoutY="20.0" text="Shale Pizzazzz">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

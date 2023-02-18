@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 15, 2021, 10:38:06 PM
+    Author     : Trang Tran
+*/
+.search-box{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 100;
+}
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+.search_button{
+    -fx-background-color: #828282;
+    -fx-background-radius: 38;
+}
+.right_bar{
+    -fx-background-color: #D3D3D3;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.1), 10.0, 0.0, 0.0, 10.0);
+}
+.chosen-card{
+    -fx-background-color: #F16C31;
+    -fx-background-radius: 30;
+}
+.comboBox{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 30;
+}
+.order-btn{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 100;
+}
+.fruit-item{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 30;
+}
+.shopping-box{
+    -fx-background-color: #A7745B;
+    -fx-background-radius: 30;
+}
+.int-order{
+    -fx-background-color: red;
+    -fx-background-radius: 30;
+}
